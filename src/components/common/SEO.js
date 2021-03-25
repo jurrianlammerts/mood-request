@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const SEO_DATA = {
   description: '',
-  title: 'MoRe',
+  title: 'Mood Request',
   url: '',
   author: '',
   keywords: ['MoRe', 'music', 'app'],
