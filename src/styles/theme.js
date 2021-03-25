@@ -17,7 +17,7 @@ const theme = {
     },
     black: {
       lighter: '#ABA8AF',
-      light: '#4D4D4D',
+      light: '#454545',
       regular: '#211E26',
     },
     primary: '#d5a6bd',

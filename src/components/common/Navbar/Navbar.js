@@ -61,7 +61,7 @@ class Navbar extends Component {
         <StyledContainer>
           <Brand>MoodRequest</Brand>
           <Mobile>
-            <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
+            <button aria-label="menu-button" onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
             </button>
           </Mobile>

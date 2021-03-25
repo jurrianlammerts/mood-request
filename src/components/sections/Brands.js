@@ -55,7 +55,7 @@ const UsedBy = () => (
             <h1>Backed by the biggest</h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
-                <ExternalLink key={link} href={link}>
+                <ExternalLink key={link} href={link} aria-label="brand-link">
                   {logo()}
                 </ExternalLink>
               ))}
