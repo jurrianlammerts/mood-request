@@ -19,7 +19,7 @@ const TEAM = [
   {
     name: 'Jurrian Lammerts',
     image: 'todd.jpg',
-    role: 'Full Stack Developer',
+    role: 'Developer',
   },
 ];
 
