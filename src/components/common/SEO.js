@@ -6,7 +6,7 @@ const SEO_DATA = {
   title: 'Mood Request',
   url: '',
   keywords: ['MoRe', 'music', 'app'],
-  img: '/art/thumbnail.png',
+  img: '/static/art/thumbnail.png',
   twitterId: '',
   facebookId: '',
 };
