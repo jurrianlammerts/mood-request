@@ -12,7 +12,7 @@ const Header = () => (
       query {
         art_music: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "music" }
+          name: { eq: "head" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -68,7 +68,7 @@ const Art = styled.figure`
   margin: 0;
 
   > div {
-    width: 100%;
+    width: 110%;
     margin-bottom: -4.5%;
 
     @media (max-width: ${props => props.theme.screen.md}) {

@@ -5,9 +5,8 @@ const SEO_DATA = {
   description: '',
   title: 'Mood Request',
   url: '',
-  author: '',
   keywords: ['MoRe', 'music', 'app'],
-  img: '',
+  img: 'art/thumbnail.png',
   twitterId: '',
   facebookId: '',
 };
@@ -32,7 +31,6 @@ const SEO = () => {
 
       <meta name="description" content={SEO_DATA.description} />
       <meta name="keywords" content={SEO_DATA.keywords.join(', ')} />
-      <meta name="author" content={SEO_DATA.author} />
       <title>{SEO_DATA.title}</title>
       <html lang="en" />
     </Helmet>
