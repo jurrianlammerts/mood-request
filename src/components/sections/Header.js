@@ -31,11 +31,11 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                The new
+                The social platform
                 <br />
-                way of listinging
+                that connects people
                 <br />
-                and sharing music
+                through music
               </h1>
               <br />
               <p>

@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: '',
+  description: 'The social platform that connects people through music',
   title: 'Mood Request',
   url: '',
   keywords: ['MoRe', 'music', 'app'],
@@ -31,7 +31,9 @@ const SEO = () => {
 
       <meta name="description" content={SEO_DATA.description} />
       <meta name="keywords" content={SEO_DATA.keywords.join(', ')} />
-      <title>{SEO_DATA.title}</title>
+      <title>
+        {SEO_DATA.title} - {SEO_DATA.description}
+      </title>
       <html lang="en" />
     </Helmet>
   );
