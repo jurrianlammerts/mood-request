@@ -45,3 +45,8 @@ export const Section = styled.section`
         : props.theme.color.primary
     }`};
 `;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+`;

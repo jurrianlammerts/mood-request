@@ -4,6 +4,7 @@ const theme = {
     secondary: `'Average', serif`,
   },
   font_size: {
+    xsmall: 'font-size: 16px; line-height: 20px',
     small: 'font-size: 20px; line-height: 30px',
     regular: 'font-size: 24px; line-height: 32px',
     large: 'font-size: 30px; line-height: 40px',
@@ -20,7 +21,8 @@ const theme = {
       light: '#454545',
       regular: '#211E26',
     },
-    primary: '#d5a6bd',
+    primary: '#F46669',
+    primaryHover: '#f24e52',
   },
   screen: {
     xs: '575px',

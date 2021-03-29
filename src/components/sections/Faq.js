@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Section, Container } from '@components/global';
 
@@ -40,6 +41,18 @@ const FAQS = [
       <>
         For any pressing question, please contact us at{` `}
         <a href="mailto:info@moodrequest.com">info@moodrequest.com</a>.
+        <EmailForm
+          method="post"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+          name="contact"
+          action="/"
+        >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="email" name="email" id="email" />
+          <SubmitButton type="submit">Sign up</SubmitButton>
+        </EmailForm>
       </>
     ),
   },
@@ -49,8 +62,15 @@ const FAQS = [
       <>
         Well, we are always looking for ambitious talent and a cup of coffee has
         never done any harm (right?). Please send an email to{' '}
-        <a target="_blank" rel="noopener noreferrer" href="mailto:info@moodrequest.com">info@moodrequest.com</a> and
-        we’ll be in touch with you.
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="mailto:info@moodrequest.com"
+        >
+          info@moodrequest.com
+        </a>{' '}
+        and we’ll be in touch with you.
+        <br />
       </>
     ),
   },
@@ -72,3 +92,42 @@ const Faq = () => (
 );
 
 export default Faq;
+
+const EmailForm = styled.form`
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: ${props => props.theme.screen.xs}) {
+    flex-direction: row;
+  }
+
+  input {
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 350px;
+  }
+`;
+
+const SubmitButton = styled.button`
+  max-width: 100px;
+  width: 100%;
+  transition: 0.25s;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: ${props => props.theme.color.primary};
+  border: 2px solid ${props => props.theme.color.primary};
+  font-family: ${props => props.theme.font.primary};
+  ${props => props.theme.font_size.xsmall};
+
+  @media (min-width: ${props => props.theme.screen.xs}) {
+    margin: 0 1rem;
+  }
+
+  :hover {
+    box-shadow: 0 0.25em 0.25em -0.2em;
+    transform: translateY(-0.15em);
+  }
+`;

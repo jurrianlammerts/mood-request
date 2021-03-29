@@ -48,9 +48,13 @@ export const Wrapper = styled.div`
   }
 
   .faq-content {
-    padding: 0 72px 32px 16px;
+    padding: 0 36px 32px 16px;
     line-height: 26px;
     ${props => props.theme.font_size.small};
     color: ${props => props.theme.color.black.light};
+
+    @media (min-width: ${props => props.theme.screen.xs}) {
+      padding: 0 72px 32px 16px;
+    }
   }
 `;
