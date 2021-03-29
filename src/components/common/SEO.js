@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const SEO_DATA = {
   description: 'The social platform that connects people through music',
-  title: 'Mood Request',
+  title: 'MoodRequest',
   url: '',
   keywords: ['MoRe', 'music', 'app'],
   img: '/art/thumbnail.png',
