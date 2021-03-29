@@ -32,15 +32,6 @@ const FAQS = [
         So we’ve already made you that curious? Why don’t you drop your email
         below and you’ll be notified on all relevant updates including the
         launch date.
-      </>
-    ),
-  },
-  {
-    title: 'How can I get in contact?',
-    content: () => (
-      <>
-        For any pressing question, please contact us at{` `}
-        <a href="mailto:info@moodrequest.com">info@moodrequest.com</a>.
         <EmailForm
           method="post"
           netlify-honeypot="bot-field"
@@ -53,6 +44,15 @@ const FAQS = [
           <input type="email" name="email" id="email" />
           <SubmitButton type="submit">Sign up</SubmitButton>
         </EmailForm>
+      </>
+    ),
+  },
+  {
+    title: 'How can I get in contact?',
+    content: () => (
+      <>
+        For any pressing question, please contact us at{` `}
+        <a href="mailto:info@moodrequest.com">info@moodrequest.com</a>.
       </>
     ),
   },
