@@ -15,7 +15,7 @@ import {
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
-const NAV_ITEMS = ['About', 'Brands', 'Team', 'FAQ'];
+const NAV_ITEMS = ['About', 'Team', 'FAQ'];
 
 class Navbar extends Component {
   state = {
@@ -61,7 +61,11 @@ class Navbar extends Component {
         <StyledContainer>
           <Brand>MoodRequest</Brand>
           <Mobile>
-            <button aria-label="menu-button" onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
+            <button
+              aria-label="menu-button"
+              onClick={this.toggleMobileMenu}
+              style={{ color: 'black' }}
+            >
               <MenuIcon />
             </button>
           </Mobile>

@@ -8,18 +8,23 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Max Rempt',
-    image: 'josh.jpg',
-    role: 'Founder & Managing director',
+    image: 'max.jpeg',
+    role: 'Managing Director',
   },
   {
     name: 'Madelyn Deuten',
-    image: 'lisa.jpg',
-    role: 'Data scientist',
+    image: 'madelyn.jpeg',
+    role: 'Data Scientist',
   },
   {
     name: 'Jurrian Lammerts',
-    image: 'todd.jpg',
+    image: 'jurr.jpeg',
     role: 'Developer',
+  },
+  {
+    name: 'You?',
+    image: 'lisa.jpg',
+    role: 'UX/UI Designer',
   },
 ];
 

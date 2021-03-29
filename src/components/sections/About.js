@@ -48,14 +48,14 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
-              <p>
+              <h2>Anytime</h2>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis harum
                 quisquam eius sed odit fugiat iusto fuga praesentium optio,
                 eaque rerum! Provident similique accusantium nemo autem.
-              </p>
+              </p> */}
             </div>
             <Art>
               <Img fluid={data.art_fast.childImageSharp.fluid} />
@@ -66,26 +66,26 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
-              <p>
+              <h2>Anywhere</h2>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis harum
                 quisquam eius sed odit fugiat iusto fuga praesentium optio,
                 eaque rerum! Provident similique accusantium nemo autem.
-              </p>
+              </p> */}
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
-              <p>
+              <h2>Anywhere</h2>
+              {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis harum
                 quisquam eius sed odit fugiat iusto fuga praesentium optio,
                 eaque rerum! Provident similique accusantium nemo autem.
-              </p>
+              </p> */}
             </div>
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />

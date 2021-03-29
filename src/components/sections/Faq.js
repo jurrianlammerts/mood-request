@@ -10,10 +10,8 @@ const FAQS = [
     title: 'What is MoodRequest?',
     content: () => (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!
+        MoodRequest (MoRe for short), is a social platform where you can store
+        and share your music memories.
       </>
     ),
   },
@@ -21,10 +19,8 @@ const FAQS = [
     title: 'How can I use it?',
     content: () => (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!
+        By doing what you’ve always done: enjoy music you like, together with
+        friends, family and strangers, but now in a place dedicated to this.
       </>
     ),
   },
@@ -32,10 +28,9 @@ const FAQS = [
     title: 'When is it live?',
     content: () => (
       <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!
+        So we’ve already made you that curious? Why don’t you drop your email
+        below and you’ll be notified on all relevant updates including the
+        launch date.
       </>
     ),
   },
@@ -43,11 +38,19 @@ const FAQS = [
     title: 'How can I get in contact?',
     content: () => (
       <>
-        Please send you questions to this{` `}
-        <ExternalLink href="mailto:mailto:m.rempt@moodrequest.com">
-          mail
-        </ExternalLink>
-        .
+        For any pressing question, please contact us at{` `}
+        <a href="mailto:info@moodrequest.com">info@moodrequest.com</a>.
+      </>
+    ),
+  },
+  {
+    title: 'Can I join the team?',
+    content: () => (
+      <>
+        Well, we are always looking for ambitious talent and a cup of coffee has
+        never done any harm (right?). Please send an email to{' '}
+        <a target="_blank" rel="noopener noreferrer" href="mailto:info@moodrequest.com">info@moodrequest.com</a> and
+        we’ll be in touch with you.
       </>
     ),
   },

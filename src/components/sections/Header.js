@@ -39,7 +39,7 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="mailto:m.rempt@moodrequest.com">
+                <StyledExternalLink href="mailto:info@moodrequest.com">
                   Learn more &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
