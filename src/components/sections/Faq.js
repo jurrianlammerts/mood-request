@@ -41,7 +41,7 @@ const FAQS = [
         >
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" aria-label="email" />
           <SubmitButton type="submit">Sign up</SubmitButton>
         </EmailForm>
       </>
